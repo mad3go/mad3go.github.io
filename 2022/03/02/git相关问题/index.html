@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>关于重装云服务器后不能登录的问题 | Hexo</title>
+  <title>git相关问题 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="位于.ssh文件夹下的known_host文件下有记录有第一次登录的信息，把相关的记录删掉即可进行登录">
+  <meta name="description" content="git push后出现Everything up-to-date报错输入git status查看发现modified:   .idea&#x2F;workspace.xml 原因出在.&#x2F;idea这个文件夹是多余的，默认下是把该文件夹一并上传，所以每次上传在commit的环节时许把.&#x2F;idea的勾去掉 若已经传输到远端，则使用指令git rm -r -f –cached .idea将远程的.&#x2F;idea文件夹删">
 <meta property="og:type" content="article">
-<meta property="og:title" content="关于重装云服务器后不能登录的问题">
-<meta property="og:url" content="http://example.com/2021/12/25/%E5%85%B3%E4%BA%8E%E9%87%8D%E8%A3%85%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8E%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:title" content="git相关问题">
+<meta property="og:url" content="http://example.com/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="位于.ssh文件夹下的known_host文件下有记录有第一次登录的信息，把相关的记录删掉即可进行登录">
+<meta property="og:description" content="git push后出现Everything up-to-date报错输入git status查看发现modified:   .idea&#x2F;workspace.xml 原因出在.&#x2F;idea这个文件夹是多余的，默认下是把该文件夹一并上传，所以每次上传在commit的环节时许把.&#x2F;idea的勾去掉 若已经传输到远端，则使用指令git rm -r -f –cached .idea将远程的.&#x2F;idea文件夹删">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-12-25T09:39:05.000Z">
-<meta property="article:modified_time" content="2021-12-25T09:41:41.687Z">
+<meta property="article:published_time" content="2022-03-02T08:43:46.000Z">
+<meta property="article:modified_time" content="2022-03-02T08:50:46.156Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -73,10 +73,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-关于重装云服务器后不能登录的问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-git相关问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2021/12/25/%E5%85%B3%E4%BA%8E%E9%87%8D%E8%A3%85%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8E%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/" class="article-date">
-  <time class="dt-published" datetime="2021-12-25T09:39:05.000Z" itemprop="datePublished">2021-12-25</time>
+    <a href="/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/" class="article-date">
+  <time class="dt-published" datetime="2022-03-02T08:43:46.000Z" itemprop="datePublished">2022-03-02</time>
 </a>
     
   </div>
@@ -87,7 +87,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      关于重装云服务器后不能登录的问题
+      git相关问题
     </h1>
   
 
@@ -95,12 +95,14 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>位于.ssh文件夹下的known_host文件下有记录有第一次登录的信息，把相关的记录删掉即可进行登录</p>
+        <p>git push后出现Everything up-to-date报错<br>输入git status查看发现<br>modified:   .idea/workspace.xml</p>
+<p>原因出在./idea这个文件夹是多余的，<br>默认下是把该文件夹一并上传，所以每次上传在commit的环节时许把./idea的勾去掉</p>
+<p>若已经传输到远端，则使用指令<br>git rm -r -f –cached .idea<br>将远程的./idea文件夹删掉</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/12/25/%E5%85%B3%E4%BA%8E%E9%87%8D%E8%A3%85%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8E%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/" data-id="ckxlmwmbq0001w55j3dy1gbqg" data-title="关于重装云服务器后不能登录的问题" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/" data-id="cl09bkctm0000nd5j4bf1dh08" data-title="git相关问题" class="article-share-link">Share</a>
       
       
       
@@ -110,19 +112,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          git相关问题
-        
-      </div>
-    </a>
   
-  
-    <a href="/2021/12/25/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2021/12/25/%E5%85%B3%E4%BA%8E%E9%87%8D%E8%A3%85%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8E%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">关于重装云服务器后不能登录的问题</div>
     </a>
   
 </nav>

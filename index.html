@@ -71,6 +71,47 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-git相关问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/" class="article-date">
+  <time class="dt-published" datetime="2022-03-02T08:43:46.000Z" itemprop="datePublished">2022-03-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/">git相关问题</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>git push后出现Everything up-to-date报错<br>输入git status查看发现<br>modified:   .idea/workspace.xml</p>
+<p>原因出在./idea这个文件夹是多余的，<br>默认下是把该文件夹一并上传，所以每次上传在commit的环节时许把./idea的勾去掉</p>
+<p>若已经传输到远端，则使用指令<br>git rm -r -f –cached .idea<br>将远程的./idea文件夹删掉</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/" data-id="cl09bkctm0000nd5j4bf1dh08" data-title="git相关问题" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-关于重装云服务器后不能登录的问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/12/25/%E5%85%B3%E4%BA%8E%E9%87%8D%E8%A3%85%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8E%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/" class="article-date">
@@ -179,7 +220,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/12/">December 2021</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">March 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/12/">December 2021</a></li></ul>
     </div>
   </div>
 
@@ -190,6 +231,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/">git相关问题</a>
+          </li>
         
           <li>
             <a href="/2021/12/25/%E5%85%B3%E4%BA%8E%E9%87%8D%E8%A3%85%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8E%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/">关于重装云服务器后不能登录的问题</a>
