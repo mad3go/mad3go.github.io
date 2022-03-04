@@ -71,6 +71,46 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-微信小程序轮播图尺寸问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/03/04/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%B0%BA%E5%AF%B8%E9%97%AE%E9%A2%98/" class="article-date">
+  <time class="dt-published" datetime="2022-03-04T15:55:04.000Z" itemprop="datePublished">2022-03-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/03/04/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%B0%BA%E5%AF%B8%E9%97%AE%E9%A2%98/">微信小程序轮播图尺寸问题</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>1.轮播图外层容器swiper,每一个轮播项swiper-item<br>2.swiper标签存在默认样式<br>    width 100%<br>    height 150px<br>    image 存在默认宽度和高度 320*240<br>    swiper 高度无法实现由内容撑开<br>3.需先根据原图的宽度和高度 等比例给swiper定宽度和高度<br>    假定：原图宽度和高度为 640 * 200px<br>    swiper 宽度 / swiper 高度 = 原图的宽度 / 原图的高度<br>    则 swiper 高度 = swiper 宽度 * 原图的高度 / 原图的宽度<br>    即 height: 100vw * 200 / 640<br>4.css样式<br>    swiper{ </p>
+<p>  　　width: 100%;<br> 　　 height: calc(100vw * 200 / 640);<br>　}<br>　image{<br>  　　width: 100%;<br>　}<br>5.给image标签添加mode属性：mode=”widthFix”(如果现有的图片尺寸不一样，则使用mode=”aspectFill”，取几张图片中的最短的显示，以形成后规范，这样标记点才能准确的在图片下方)<br>　宽度100%，高度自适应</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/03/04/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%B0%BA%E5%AF%B8%E9%97%AE%E9%A2%98/" data-id="cl0cls5o400002e5j12m62ama" data-title="微信小程序轮播图尺寸问题" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-git相关问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/" class="article-date">
@@ -231,6 +271,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2022/03/04/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%B0%BA%E5%AF%B8%E9%97%AE%E9%A2%98/">微信小程序轮播图尺寸问题</a>
+          </li>
         
           <li>
             <a href="/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/">git相关问题</a>

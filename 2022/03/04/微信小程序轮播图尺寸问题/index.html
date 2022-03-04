@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Archives: 2021 | Hexo</title>
+  <title>微信小程序轮播图尺寸问题 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2021/index.html">
+  <meta name="description" content="1.轮播图外层容器swiper,每一个轮播项swiper-item2.swiper标签存在默认样式    width 100%    height 150px    image 存在默认宽度和高度 320*240    swiper 高度无法实现由内容撑开3.需先根据原图的宽度和高度 等比例给swiper定宽度和高度    假定：原图宽度和高度为 640 * 200px    swiper 宽度">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微信小程序轮播图尺寸问题">
+<meta property="og:url" content="http://example.com/2022/03/04/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%B0%BA%E5%AF%B8%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1.轮播图外层容器swiper,每一个轮播项swiper-item2.swiper标签存在默认样式    width 100%    height 150px    image 存在默认宽度和高度 320*240    swiper 高度无法实现由内容撑开3.需先根据原图的宽度和高度 等比例给swiper定宽度和高度    假定：原图宽度和高度为 640 * 200px    swiper 宽度">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-03-04T15:55:04.000Z">
+<meta property="article:modified_time" content="2022-03-04T16:00:10.838Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -69,58 +73,54 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/12/25/%E5%85%B3%E4%BA%8E%E9%87%8D%E8%A3%85%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8E%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/" class="archive-article-date">
-  <time class="dt-published" datetime="2021-12-25T09:39:05.000Z" itemprop="datePublished">Dec 25</time>
+        <section id="main"><article id="post-微信小程序轮播图尺寸问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/03/04/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%B0%BA%E5%AF%B8%E9%97%AE%E9%A2%98/" class="article-date">
+  <time class="dt-published" datetime="2022-03-04T15:55:04.000Z" itemprop="datePublished">2022-03-04</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/12/25/%E5%85%B3%E4%BA%8E%E9%87%8D%E8%A3%85%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8E%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/">关于重装云服务器后不能登录的问题</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      微信小程序轮播图尺寸问题
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/12/25/hello-world/" class="archive-article-date">
-  <time class="dt-published" datetime="2021-12-25T08:34:39.837Z" itemprop="datePublished">Dec 25</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/12/25/hello-world/">Hello World</a>
-    </h1>
-  
+        <p>1.轮播图外层容器swiper,每一个轮播项swiper-item<br>2.swiper标签存在默认样式<br>    width 100%<br>    height 150px<br>    image 存在默认宽度和高度 320*240<br>    swiper 高度无法实现由内容撑开<br>3.需先根据原图的宽度和高度 等比例给swiper定宽度和高度<br>    假定：原图宽度和高度为 640 * 200px<br>    swiper 宽度 / swiper 高度 = 原图的宽度 / 原图的高度<br>    则 swiper 高度 = swiper 宽度 * 原图的高度 / 原图的宽度<br>    即 height: 100vw * 200 / 640<br>4.css样式<br>    swiper{ </p>
+<p>  　　width: 100%;<br> 　　 height: calc(100vw * 200 / 640);<br>　}<br>　image{<br>  　　width: 100%;<br>　}<br>5.给image标签添加mode属性：mode=”widthFix”(如果现有的图片尺寸不一样，则使用mode=”aspectFill”，取几张图片中的最短的显示，以形成后规范，这样标记点才能准确的在图片下方)<br>　宽度100%，高度自适应</p>
 
-    </header>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/03/04/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%B0%BA%E5%AF%B8%E9%97%AE%E9%A2%98/" data-id="cl0cls5o400002e5j12m62ama" data-title="微信小程序轮播图尺寸问题" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2022/03/02/git%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">git相关问题</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>
